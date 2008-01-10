@@ -1,0 +1,81 @@
+ocaml-lablgtkmathview
+------------------------------------------
+GtkMathView is a C++ rendering engine for MathML documents. It provides 
+an interactive view that can be used for browsing and editing MathML 
+markup.
+
+This package provides OCaml bindings for the GtkMathView library.
+
+Runtime requirements:
+  cygwin-1.5.25-7
+  gdome2-0.8.1-2
+  glib2-2.14.5-1
+  gtk2-x11-2.12.3-1
+  gtkmathview-0.7.8.1167-1
+  ocaml-3.10.0-1
+  ocaml-gdome2-0.2.6-1
+  ocaml-lablgtk2-2.10.0-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  cygwin-1.5.25-7
+  binutils-20060817-1
+  cygport-0.3.8-1
+  gcc-core-3.4.4-3
+  make-3.81-1
+  ocaml-findlib-1.2.1-1
+
+Canonical website:
+  http://helm.cs.unibo.it/mml-widget/index.html
+
+Canonical download:
+  http://helm.cs.unibo.it/mml-widget/sources/
+
+-------------------------------------------
+
+Build instructions:
+  unpack ocaml-lablgtkmathview-0.7.2-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./ocaml-lablgtkmathview-0.7.2-X.cygport all
+
+This will create:
+  /usr/src/ocaml-lablgtkmathview-0.7.2-X-src.tar.bz2
+  /usr/src/ocaml-lablgtkmathview-0.7.2-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/lib/ocaml/3.10/lablgtkmathview/META
+  /usr/lib/ocaml/3.10/lablgtkmathview/gMathView.cmi
+  /usr/lib/ocaml/3.10/lablgtkmathview/gMathView.mli
+  /usr/lib/ocaml/3.10/lablgtkmathview/gMathViewAux.cmi
+  /usr/lib/ocaml/3.10/lablgtkmathview/gMathViewAux.mli
+  /usr/lib/ocaml/3.10/lablgtkmathview/gtkMathView.cmi
+  /usr/lib/ocaml/3.10/lablgtkmathview/gtkMathViewProps.cmi
+  /usr/lib/ocaml/3.10/lablgtkmathview/gtk_mathview.cmi
+  /usr/lib/ocaml/3.10/lablgtkmathview/lablgtkmathview.a
+  /usr/lib/ocaml/3.10/lablgtkmathview/lablgtkmathview.cma
+  /usr/lib/ocaml/3.10/lablgtkmathview/lablgtkmathview.cmxa
+  /usr/lib/ocaml/3.10/lablgtkmathview/liblablgtkmathview.a
+  /usr/lib/ocaml/3.10/lablgtkmathview/ogtkMathViewProps.cmi
+  /usr/lib/ocaml/3.10/stublibs/dlllablgtkmathview.so
+  /usr/lib/ocaml/3.10/stublibs/dlllablgtkmathview.so.owner
+  /usr/share/doc/ocaml-lablgtkmathview-0.7.2/AUTHORS
+  /usr/share/doc/ocaml-lablgtkmathview-0.7.2/COPYING
+  /usr/share/doc/ocaml-lablgtkmathview-0.7.2/ChangeLog
+  /usr/share/doc/ocaml-lablgtkmathview-0.7.2/LICENSE
+  /usr/share/doc/ocaml-lablgtkmathview-0.7.2/README
+
+------------------
+
+Port Notes:
+
+----- version 0.7.2-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/

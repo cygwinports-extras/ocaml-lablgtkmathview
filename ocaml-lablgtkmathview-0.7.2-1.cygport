@@ -1,0 +1,17 @@
+ORIG_PN=${PN#ocaml-}
+
+inherit ocaml
+
+DESCRIPTION="OCaml GtkMathView bindings"
+HOMEPAGE="http://helm.cs.unibo.it/mml-widget/"
+SRC_URI="http://helm.cs.unibo.it/mml-widget/sources/${ORIG_PN}-${PV}.tar.gz"
+
+DIFF_EXCLUDES=".depend"
+
+src_compile() {
+	lndirs
+	cd ${B}
+	cygconf
+	${OCAML_LIBDIR}/lablgtk2/propcc.exe gtkMathView.props
+	cygmake -j1 world
+}
