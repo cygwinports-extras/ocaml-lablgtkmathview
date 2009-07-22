@@ -7,23 +7,24 @@ markup.
 This package provides OCaml bindings for the GtkMathView library.
 
 Runtime requirements:
-  cygwin-1.5.25-7
-  gdome2-0.8.1-2
-  glib2-2.14.5-1
-  gtk2-x11-2.12.3-1
-  gtkmathview-0.7.8.1167-1
-  ocaml-3.10.0-1
-  ocaml-gdome2-0.2.6-1
-  ocaml-lablgtk2-2.10.0-1
+  cygwin-1.7.0-51
+  libgcc1-4.3.2-2
+  libgdome0-0.8.1-10
+  libglib2.0_0-2.20.3-1
+  libgtk2.0_0-2.16.2-1
+  libgtkmathview0-0.8.0-10
+  ocaml-3.11.1-1
+  ocaml-gdome2-0.2.6-11
+  ocaml-lablgtk2-2.12.0-1
 
 Build requirements:
 (besides corresponding -devel packages)
-  cygwin-1.5.25-7
-  binutils-20060817-1
-  cygport-0.3.8-1
-  gcc-core-3.4.4-3
-  make-3.81-1
-  ocaml-findlib-1.2.1-1
+  binutils-2.19.51-1
+  cygport-0.9.8-1
+  flexdll-0.19.169-1
+  gcc4-core-4.3.2-2
+  make-3.81-2
+  ocaml-findlib-1.2.4-1
 
 Canonical website:
   http://helm.cs.unibo.it/mml-widget/index.html
@@ -63,18 +64,18 @@ Files included in the binary package:
   /usr/lib/ocaml/3.10/lablgtkmathview/ogtkMathViewProps.cmi
   /usr/lib/ocaml/3.10/stublibs/dlllablgtkmathview.so
   /usr/lib/ocaml/3.10/stublibs/dlllablgtkmathview.so.owner
-  /usr/share/doc/ocaml-lablgtkmathview-0.7.2/AUTHORS
-  /usr/share/doc/ocaml-lablgtkmathview-0.7.2/COPYING
-  /usr/share/doc/ocaml-lablgtkmathview-0.7.2/ChangeLog
-  /usr/share/doc/ocaml-lablgtkmathview-0.7.2/LICENSE
-  /usr/share/doc/ocaml-lablgtkmathview-0.7.2/README
+  /usr/share/doc/ocaml-lablgtkmathview/AUTHORS
+  /usr/share/doc/ocaml-lablgtkmathview/COPYING
+  /usr/share/doc/ocaml-lablgtkmathview/ChangeLog
+  /usr/share/doc/ocaml-lablgtkmathview/LICENSE
+  /usr/share/doc/ocaml-lablgtkmathview/README
 
 ------------------
 
 Port Notes:
 
------ version 0.7.2-1 -----
-Initial release for Cygwin.
+----- version 0.7.2-10 -----
+Initial release for Cygwin 1.7.
 
 
 Cygwin port maintained by:

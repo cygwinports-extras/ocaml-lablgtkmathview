@@ -12,6 +12,5 @@ src_compile() {
 	lndirs
 	cd ${B}
 	cygconf
-	${OCAML_LIBDIR}/lablgtk2/propcc.exe gtkMathView.props
 	cygmake -j1 world
 }
