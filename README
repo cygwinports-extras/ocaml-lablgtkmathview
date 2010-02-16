@@ -7,24 +7,24 @@ markup.
 This package provides OCaml bindings for the GtkMathView library.
 
 Runtime requirements:
-  cygwin-1.7.0-51
-  libgcc1-4.3.2-2
+  cygwin-1.7.1-1
+  libgcc1-4.3.4-3
   libgdome0-0.8.1-10
-  libglib2.0_0-2.20.3-1
-  libgtk2.0_0-2.16.2-1
+  libglib2.0_0-2.22.4-2
+  libgtk2.0_0-2.18.6-1
   libgtkmathview0-0.8.0-10
-  ocaml-3.11.1-1
-  ocaml-gdome2-0.2.6-11
-  ocaml-lablgtk2-2.12.0-1
+  ocaml-3.11.2-1
+  ocaml-gdome2-0.2.6-12
+  ocaml-lablgtk2-2.14.0-2
 
 Build requirements:
 (besides corresponding -devel packages)
   binutils-2.19.51-1
-  cygport-0.9.8-1
-  flexdll-0.19.169-1
-  gcc4-core-4.3.2-2
+  cygport-0.9.80-1
+  flexdll-0.22-1
+  gcc4-core-4.3.4-3
   make-3.81-2
-  ocaml-findlib-1.2.4-1
+  ocaml-findlib-1.2.5-1
 
 Canonical website:
   http://helm.cs.unibo.it/mml-widget/index.html
@@ -47,32 +47,10 @@ This will create:
 
 -------------------------------------------
 
-Files included in the binary package:
-
-  /usr/lib/ocaml/3.10/lablgtkmathview/META
-  /usr/lib/ocaml/3.10/lablgtkmathview/gMathView.cmi
-  /usr/lib/ocaml/3.10/lablgtkmathview/gMathView.mli
-  /usr/lib/ocaml/3.10/lablgtkmathview/gMathViewAux.cmi
-  /usr/lib/ocaml/3.10/lablgtkmathview/gMathViewAux.mli
-  /usr/lib/ocaml/3.10/lablgtkmathview/gtkMathView.cmi
-  /usr/lib/ocaml/3.10/lablgtkmathview/gtkMathViewProps.cmi
-  /usr/lib/ocaml/3.10/lablgtkmathview/gtk_mathview.cmi
-  /usr/lib/ocaml/3.10/lablgtkmathview/lablgtkmathview.a
-  /usr/lib/ocaml/3.10/lablgtkmathview/lablgtkmathview.cma
-  /usr/lib/ocaml/3.10/lablgtkmathview/lablgtkmathview.cmxa
-  /usr/lib/ocaml/3.10/lablgtkmathview/liblablgtkmathview.a
-  /usr/lib/ocaml/3.10/lablgtkmathview/ogtkMathViewProps.cmi
-  /usr/lib/ocaml/3.10/stublibs/dlllablgtkmathview.so
-  /usr/lib/ocaml/3.10/stublibs/dlllablgtkmathview.so.owner
-  /usr/share/doc/ocaml-lablgtkmathview/AUTHORS
-  /usr/share/doc/ocaml-lablgtkmathview/COPYING
-  /usr/share/doc/ocaml-lablgtkmathview/ChangeLog
-  /usr/share/doc/ocaml-lablgtkmathview/LICENSE
-  /usr/share/doc/ocaml-lablgtkmathview/README
-
-------------------
-
 Port Notes:
+
+----- version 0.7.2-11 -----
+Rebuilt for ocaml-3.11.2.
 
 ----- version 0.7.2-10 -----
 Initial release for Cygwin 1.7.

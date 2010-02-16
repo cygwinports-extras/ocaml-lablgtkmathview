@@ -1,5 +1,5 @@
 category: Gnome OCaml
-requires: libgcc1 libgdome0 libglib2.0_0 libgtk2.0_0 libgtkmathview0 ocaml ocaml-gdome2 ocaml-lablgtk2
+requires: libgcc1 libgdome-devel libglib2.0-devel libgtk2.0-devel libgtkmathview-devel ocaml ocaml-gdome2 ocaml-lablgtk2
 sdesc: "OCaml GtkMathView bindings"
 ldesc: "GtkMathView is a C++ rendering engine for MathML documents. It 
 provides an interactive view that can be used for browsing and editing 
